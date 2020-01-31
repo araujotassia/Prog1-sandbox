@@ -21,6 +21,19 @@ public class HelloWorld {
     public static void main(String[] args) {
         // Prints "Hello, World" to the terminal window.
         System.out.println("Hello, World");
+
+        int a, b;
+        double c;
+
+        a = 5;
+        b = 2;
+
+        c = ( a)/b;
+
+        System.out.println("The result of the division is " + c);
+        System.out.println("\nThe result of the division + 1 is " + ++c);
+        System.out.println("\nThe final value of c is " + c);
+
     }
 
 }
